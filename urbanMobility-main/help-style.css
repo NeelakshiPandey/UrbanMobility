@@ -1,0 +1,198 @@
+/* General Styles */
+#faq{
+  background: rgb(249,241,230);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  height: 100%;
+}
+.container{
+  margin: 100px 0;
+  padding: 120px;
+  background-color: #007050;
+}
+.faq-heading{
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 50px;
+}
+.faq-section {
+  padding: 2rem 0;
+  width: 100%;
+}
+.faq-accordion {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.accordion-item{
+  width: 95%;
+  background-color: white;
+}
+.accordion-button{
+  background-color: white;
+  border: 2px solid #007050;
+  color: #007050;
+  padding: 40px;
+  font-size: 1.25rem;
+}
+.accordion-collapse{
+  color: #007050;
+  border: 2px solid #007050;
+  padding: 20px 20px;
+  font-size: 1rem;
+}
+/* Contact Support Section */
+#contact{
+  background: linear-gradient(90deg, #dcf0ea 70%,#d58998 30%);
+  height: 180vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-heading{
+  font-size: 4rem;
+  font-weight: 300;
+  padding-bottom: 40px;
+  color: #ed143f;
+}
+.contact-section-content{
+  background-color: #febfcc;
+  border: none;
+  border-radius: 20px;
+  width: 70%;
+  height: 800px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+}
+.contact-form {
+  width: 90%;
+  height: 80%;
+  color: #007050;
+  font-size: 1.25rem;
+}
+.form-group {
+  margin-bottom: 30px;
+}
+.form-control{
+  padding: 10px 0;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+textarea{
+  margin-bottom: 20px;
+}
+.btn-ask{
+  background-color: #00a274;
+  width: 100%;
+  font-size: 1.25rem;
+}
+.links{
+  width: 100%;
+}
+.footer-and-links{
+  width: 100%;
+}
+@media only screen and (max-width: 920px){
+  .container{
+    width: 95%;
+    padding: 120px 80px;
+  }
+  .accordion-button{
+    padding: 30px;
+  }    
+}
+@media only screen and (max-width: 872px){
+  .faq-heading{
+    text-align: center;
+  }
+  .faq-accordion{
+    max-width: 95%;
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 794px){
+  .container{
+    padding: 120px 40px;   
+  }
+  .faq-heading{
+    font-size: 2.5rem;
+  }
+  .contact-heading{
+    font-size: 2.5rem;
+  }
+}
+@media only screen and (max-width: 659px){
+  .container{
+    padding: 120px 20px;   
+  }
+  .faq-heading{
+    font-size: 2rem;
+  }
+  .accordion-button{
+    font-size: 1.25rem;
+  }
+  .accordion-collapse{
+    font-size: 1.25rem;
+  }
+  .contact-heading{
+    font-size: 2rem;
+  }
+  label{
+    font-size: 1rem;
+  }
+  .contact-section-content{
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 530px){
+  .faq-heading{
+    font-size: 1.75rem;
+  }
+  .accordion-button{
+    font-size: 1rem;
+  }
+  .accordion-collapse{
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 490px){
+  .container{
+    padding: 80px 10px;
+    margin: 50px 0;   
+  }
+  .faq-heading{
+    font-size: 1.75rem;
+  }
+  .accordion-button{
+    font-size: 1rem;
+  }
+  .accordion-collapse{
+    font-size: 1rem;
+  }
+}
+@media only screen and (max-width: 400px){
+  .container{
+    padding: 50px 10px;
+    margin: 20px 0;   
+  }
+}
